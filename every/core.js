@@ -8,7 +8,7 @@ function allEven(input) {
 // an array and that every element in the array is
 // greater than 0.
 function positiveMatrix(input) {
-  return input.every(col => col.every( num => num > 0));
+  return input.every(row => row.every( num => num > 0));
 }
 
 module.exports = {
